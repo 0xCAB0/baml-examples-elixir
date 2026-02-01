@@ -23,6 +23,7 @@ defmodule ElixirStarter.MixProject do
   defp deps do
     [
       {:baml_elixir, "~> 1.0.0-pre.24"},
+      {:open_api_spex, "~> 3.21", only: [:dev]},
       {:dotenv, "~> 3.1.0", only: [:dev, :test]},
       {:req, "~> 0.5.17"},
       {:jason, "~> 1.4"},
